@@ -1,9 +1,27 @@
-static void main(String[] args) {
+void main(String[] args) {
     Scanner in = new Scanner(System.in);
     Date now = new Date();
+    int year = now.getYear() + 1900;
+    int i = 0;
+
 
     System.out.println(now);
-    System.out.println(now.getYear() + 1900);
+    System.out.println(year);
+
+    /*do {
+        System.out.println("Привет");
+        i++;
+    }while (i < 3);*/
+
+    for (; i < 3; i++) {
+        System.out.println("Привет" +i);
+    }
+
+
+    do {
+        System.out.println("Текущий год:" +year);
+        year++;
+    } while (year < 2026);
 
     /*System.out.println("Введите число x: ");
     int x = in.nextInt();
