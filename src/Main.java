@@ -15,7 +15,7 @@ void main(String[] args) {
 
     for (; i < 3; i++) {
         System.out.println("Привет" +i);
-    }
+    } //113
 
 
     do {
